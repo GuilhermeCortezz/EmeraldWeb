@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+}
+
+.navbar {
+    background-color: #3f3f3f;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Bungee', Arial, sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('https://passaportefeliz.com.br/wp-content/uploads/2020/07/patagonia-8.jpg');
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.features {
+    padding: 80px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature i {
+    font-size: 48px;
+    color: #009688;
+    margin-bottom: 20px;
+}
+
+.products {
+    padding: 80px 0;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #3f3f3f;
+    color: #fff;
+    padding: 10px 0;
+}
