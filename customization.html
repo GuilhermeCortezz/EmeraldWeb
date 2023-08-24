@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerald Web</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Emerald Web</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="customization.html">Customização</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero text-center text-white" id="inicio">
+        <div class="container">
+            <h1>Bem-vindo a Emerald Web</h1>
+            <p>Empodere o seu negócio com ferramentas avançadas de visualização e análise de dados.</p>
+        </div>
+    </section>
+    <section class="features" id="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="fas fa-chart-bar fa-3x"></i>
+                        <h3>Análise de Dados</h3>
+                        <p>Obtenha insights de conjuntos de dados complexos com nossas poderosas ferramentas de análise.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="fas fa-cogs fa-3x"></i>
+                        <h3>Customização</h3>
+                        <p>Personalize painéis para se ajustarem às necessidades e identidade da sua empresa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="fas fa-lock fa-3x"></i>
+                        <h3>Segurança de Dados</h3>
+                        <p>Proteja suas informações sensíveis com recursos avançados de segurança.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="product">
+                        <img src="./images/dashboard1.png" alt="Dashboard 1" class="img-fluid">
+                        <h2>Suíte de Análise Avançada</h2>
+                        <p>Desbloqueie o potencial dos seus dados com nossa abrangente suíte de análise.</p>
+                        <button class="btn btn-primary">Solicitar uma Demonstração</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product">
+                        <img src="./images/dashboard2.png" alt="Dashboard 2" class="img-fluid">
+                        <h2>Inteligência de Negócios Pro</h2>
+                        <p>Tome decisões informadas com nossa plataforma de insights empresariais inteligentes.</p>
+                        <button class="btn btn-primary">Solicitar um Orçamento</button>
+                    </div>
+                </div>
+                <!-- More product columns can be added here -->
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Entre em Contato</h2>
+                    <p>Se você tiver alguma dúvida ou consulta, entre em contato com a nossa equipe.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-envelope"></i> Email: info@yourb2bdashboards.com</li>
+                        <li><i class="fas fa-phone"></i> Telefone: +1 (123) 456-7890</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2>Solicitar um Retorno de Ligação</h2>
+                    <form id="contactForm" action="#" method="post">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Seu Nome" required>
+                            <div class="invalid-feedback">Por favor, insira seu nome.</div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Seu Email" required>
+                            <div class="invalid-feedback">Por favor, insira um endereço de e-mail válido.</div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Número de Telefone" required>
+                            <div class="invalid-feedback">Por favor, insira um número de telefone.</div>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Mensagem"
+                                required></textarea>
+                            <div class="invalid-feedback">Por favor, insira sua mensagem.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                    <div class="alert alert-success mt-3 d-none" id="successMessage">Mensagem enviada com sucesso!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Emerald Web. Todos os direitos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
